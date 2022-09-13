@@ -29,6 +29,7 @@ namespace Generic_Example
         }
         class MyList<T>//Generic Clas T tipinde çalışır
         {
+            //T type verilen genel isim
             T[] _array;
             T[] _tempArray;
             public MyList()//ctor
