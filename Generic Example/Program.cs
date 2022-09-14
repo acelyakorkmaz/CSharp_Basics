@@ -36,7 +36,7 @@ namespace Generic_Example
             {
                 _array = new T[0];
             }
-            public void Add(T item)//T hangi tipi kullanırsan ona dönüşür
+            public void Add(T item)
             {
                 _tempArray = _array;
                 _array = new T[_array.Length + 1];//elemn sayısını arttırma
